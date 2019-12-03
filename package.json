@@ -1,7 +1,7 @@
 {
   "name": "react-native-farbod-xyz",
   "title": "React Native Chabok",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "React native wrapper for Chabok SDK",
   "main": "index.js",
   "nativePackage": true,
@@ -10,8 +10,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chabokpush/chabok-client-rn.git",
-    "baseUrl": "https://github.com/chabokpush/chabok-client-rn"
+    "url": "git+https://github.com/farbod-s/React-Native-Module.git",
+    "baseUrl": "https://github.com/farbod-s/React-Native-Module.git"
   },
   "keywords": [
     "Chabok",
@@ -19,12 +19,12 @@
     "realtime messaging"
   ],
   "author": {
-    "name": "Behrad Zari",
-    "email": "b.zari@chabok.io"
+    "name": "Farbod Samsamipour",
+    "email": "farbod.ps@gmail.com"
   },
-  "homepage": "https://github.com/chabokpush/chabok-client-rn#readme",
+  "homepage": "https://github.com/farbod-s/React-Native-Module#react-native-chabok",
   "bugs": {
-    "url": "https://github.com/chabokpush/chabok-client-rn/issues"
+    "url": "https://github.com/farbod-s/React-Native-Module.git/issues"
   },
   "babel": {
     "presets": [
