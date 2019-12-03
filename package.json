@@ -1,7 +1,7 @@
 {
   "name": "react-native-farbod-xyz",
   "title": "React Native Chabok",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "React native wrapper for Chabok SDK",
   "main": "index.js",
   "nativePackage": true,
