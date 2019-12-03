@@ -1,0 +1,48 @@
+{
+  "name": "react-native-farbod-xyz",
+  "title": "React Native Chabok",
+  "version": "2.0.0",
+  "description": "React native wrapper for Chabok SDK",
+  "main": "index.js",
+  "nativePackage": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chabokpush/chabok-client-rn.git",
+    "baseUrl": "https://github.com/chabokpush/chabok-client-rn"
+  },
+  "keywords": [
+    "Chabok",
+    "push notification",
+    "realtime messaging"
+  ],
+  "author": {
+    "name": "Behrad Zari",
+    "email": "b.zari@chabok.io"
+  },
+  "homepage": "https://github.com/chabokpush/chabok-client-rn#readme",
+  "bugs": {
+    "url": "https://github.com/chabokpush/chabok-client-rn/issues"
+  },
+  "babel": {
+    "presets": [
+      "react-native"
+    ]
+  },
+  "license": "Apache-2.0",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "babel-jest": "^25.0.0",
+    "babel-preset-react-native": "^5",
+    "jest": "^25.0.0",
+    "react": "^16.8.3",
+    "react-native": "^0.61.5",
+    "react-test-renderer": "^16.4.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
+  }
+}
