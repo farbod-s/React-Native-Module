@@ -11,12 +11,13 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.authors      = { package["author"]["name"] => package["author"]["email"] }
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://github.com/farbod-s/React-Native-Module.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/farbod-s/React-Native-Module.git", :tag => "v#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
   s.requires_arc = true
 
   s.dependency "React"
+  s.dependency 'ChabokPush', '>= 2.0.1'
   # ...
   # s.dependency "..."
 end
