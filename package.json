@@ -1,27 +1,34 @@
 {
-  "name": "react-native-chabok",
-  "title": "React Native Chabok",
-  "version": "1.0.0",
-  "description": "TODO",
+  "name": "react-native-farbod-xyz",
+  "title": "React native wrapper for Chabok SDK",
+  "version": "2.1.2",
+  "description": "React native wrapper for Chabok SDK",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "nativePackage": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-chabok.git",
-    "baseUrl": "https://github.com/github_account/react-native-chabok"
+    "url": "git+https://github.com/farbod-s/React-Native-Module.git.git",
+    "baseUrl": "https://github.com/farbod-s/React-Native-Module.git"
   },
   "keywords": [
-    "react-native"
+    "Chabok",
+    "push notification",
+    "realtime messaging"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Farbod Samsamipour",
+    "email": "farbod.ps@gmail.com"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/farbod-s/React-Native-Module/issues"
+  },
+  "homepage": "https://github.com/farbod-s/React-Native-Module",
   "peerDependencies": {
     "react": "^16.8.1",
     "react-native": ">=0.59.0-rc.0 <1.0.x"

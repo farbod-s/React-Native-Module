@@ -1,5 +1,3 @@
-import { NativeModules } from 'react-native';
+import * as chabok from './lib/modules/core/chabok';
 
-const { Chabok } = NativeModules;
-
-export default Chabok;
+export default chabok;
