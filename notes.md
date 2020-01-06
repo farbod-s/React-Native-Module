@@ -16,7 +16,7 @@ npm install ../react-native-chabok --save
 ```
 install module from github branch:
 ```
-npm install git://github.com/shakacode/bootstrap-loader.git#v1 --save
+npm install git://github.com/chabok-io/chabok-client-rn.git#v2.0.0 --save
 ```
 link and unlink module:
 ```
