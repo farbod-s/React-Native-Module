@@ -9,8 +9,18 @@ sudo gem install cocoapods
 npx react-native init AwesomeProject
 npx react-native run-ios //is one way to run your app. You can also run it directly from within Xcode.
 ```
+
+install module from local directory:
 ```
 npm install ../react-native-chabok --save
+```
+install module from github branch:
+```
+npm install git://github.com/shakacode/bootstrap-loader.git#v1 --save
+```
+link and unlink module:
+```
+react-native link ../react-native-chabok
 npm link ../react-native-chabok
 npm unlink --no-save ../react-native-chabok
 ```
