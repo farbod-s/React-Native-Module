@@ -28,7 +28,7 @@ npm install git://github.com/chabok-io/chabok-client-rn.git#v2.0.0 --save
 ```
 link and unlink module:
 ```
-react-native link ../react-native-chabok
+react-native link react-native-chabok
 npm link ../react-native-chabok
 npm unlink --no-save ../react-native-chabok
 ```
