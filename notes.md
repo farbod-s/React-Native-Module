@@ -5,9 +5,17 @@ brew install node
 brew install watchman
 sudo gem install cocoapods
 ```
+create new project:
 ```
 npx react-native init AwesomeProject
-npx react-native run-ios //is one way to run your app. You can also run it directly from within Xcode.
+```
+run Android:
+```
+npx react-native run-android
+```
+run iOS:
+```
+npx react-native run-ios
 ```
 
 install module from local directory:
@@ -39,6 +47,7 @@ To install this package:
 npm install -g create-react-native-module
 ```
 Navigate into an empty directory to execute the command.
+Create empty React-Native module:
 ```
 create-react-native-module MyFancyLibrary
 ```
